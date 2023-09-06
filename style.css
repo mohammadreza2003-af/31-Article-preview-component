@@ -114,10 +114,10 @@ main {
   align-items: center;
   transform: translate(-7rem, -4rem);
   animation: bottomtotop 0.6s;
-  display: none;
+  display: flex;
 }
 .ac-card {
-  display: flex;
+  display: none;
 }
 .btn-box {
   position: relative;
