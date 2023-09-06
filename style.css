@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* Colors */
 :root {
   --bg: hsla(210, 46%, 95%, 1);
   --white: rgba(246, 246, 246, 0.95);
@@ -13,6 +13,7 @@
   --warm-gray: hsla(0, 0%, 59%, 1);
   --green: hsl(161, 45%, 32%);
 }
+/* Styles */
 body {
   display: flex;
   align-items: center;
@@ -142,7 +143,7 @@ main {
   z-index: -2;
   transform: translate(0, 1.2rem) rotate(45deg);
 }
-
+/* Animation */
 @keyframes bottomtotop {
   0% {
     transform: translate(0, -4rem);
