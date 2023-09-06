@@ -178,4 +178,7 @@ main {
     display: flex;
     flex-direction: column;
   }
+  .picture {
+    border-radius: 10px 10px 0 0;
+  }
 }
