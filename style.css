@@ -107,7 +107,6 @@ main {
 .card {
   background-color: var(--grey-100);
   padding: 0.8rem 2rem;
-  display: flex;
   gap: 1.6rem;
   position: absolute;
   border-radius: 12px;
@@ -115,9 +114,10 @@ main {
   align-items: center;
   transform: translate(-7rem, -4rem);
   animation: bottomtotop 0.6s;
+  display: none;
 }
 .ac-card {
-  display: none;
+  display: flex;
 }
 .btn-box {
   position: relative;
